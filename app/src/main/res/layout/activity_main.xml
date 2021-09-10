@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/abhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Database"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/abhi"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:hint="Date"
+        android:inputType="date"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:hint="Time"
+        android:inputType="time"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Add"
+        android:backgroundTint="#000"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/time"
+        />
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Update"
+        android:backgroundTint="#000"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btnadd"
+        />
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="Delete"
+        android:backgroundTint="#000"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btnupdate"
+        />
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="View"
+        android:backgroundTint="#000"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btndelete"
+        />
+
+
+</RelativeLayout>
